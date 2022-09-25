@@ -6,7 +6,7 @@ import plotly.express as px
 from PIL import Image
 
 ### Loading our Dataset and launching streamlit ###
-df= pd.read_csv("https://github.com/rnb22/world_pop/blob/main/world_population.csv")
+df= pd.read_csv("world_population.csv")
 df.head()
 
 #### Creating Navigation Bar ####
