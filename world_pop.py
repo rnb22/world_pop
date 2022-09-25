@@ -5,6 +5,7 @@ import numpy as np
 import plotly.express as px
 from PIL import Image
 from streamlit_option_menu import option_menu
+import plotly.graph_objects as go
 
 ### Loading our Dataset and launching streamlit ###
 df= pd.read_csv("world_population.csv")
