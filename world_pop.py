@@ -3,6 +3,7 @@ import pandas as pd
 import streamlit as st
 import numpy as np
 import plotly.express as px
+import matplotlib.pyplot as plt 
 from PIL import Image
 from streamlit_option_menu import option_menu
 import plotly.graph_objects as go
