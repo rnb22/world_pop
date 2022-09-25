@@ -5,7 +5,7 @@ import numpy as np
 from PIL import Image
 
 ### Loading our Dataset and launching streamlit ###
-df= pd.read_csv("C:/Users/ranab/Desktop/project/world_population.csv")
+df= pd.read_csv("https://github.com/rnb22/world_pop/blob/main/world_population.csv")
 df.head()
 
 #### Creating Navigation Bar ####
