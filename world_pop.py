@@ -2,7 +2,6 @@
 import pandas as pd
 import streamlit as st
 import numpy as np
-from streamlit_option_menu import option_menu
 from PIL import Image
 
 ### Loading our Dataset and launching streamlit ###
