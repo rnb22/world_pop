@@ -15,7 +15,7 @@ Menu = option_menu(None, ["Home","Dataset","Dashboard"],icons=['house',"cloud","
 
 ### Setting Conditions ###
 if Menu == "Home": st.title('World Population')
-Image= Image.open("C:/Users/ranab/Desktop/project/map.jpg")
+Image= Image.open("map.jpg")
 if Menu == "Home": st.image(Image,caption='')
 if Menu == "Home": st.write("In the following Dashboard, we are going to observe the world population changes throughout the years. The purpose behind our study is to find what are some intereting factors that might cause the changes.")
 if Menu== "Dataset": st.header("A Glimpse Over The Data")
