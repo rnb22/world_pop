@@ -3,6 +3,7 @@ import pandas as pd
 import streamlit as st
 import numpy as np
 from PIL import Image
+from streamlit_option_menu import option_menu
 
 ### Loading our Dataset and launching streamlit ###
 df= pd.read_csv("world_population.csv")
