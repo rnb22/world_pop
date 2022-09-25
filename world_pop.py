@@ -2,13 +2,9 @@
 import pandas as pd
 import streamlit as st
 import numpy as np
-import plotly.figure_factory as ff
-import plotly.graph_objects as go
 import plotly.express as px
-import hydralit_components as hc
 from streamlit_option_menu import option_menu
 from PIL import Image
-import altair as alt
 
 ### Loading our Dataset and launching streamlit ###
 df= pd.read_csv("C:/Users/ranab/Desktop/project/world_population.csv")
